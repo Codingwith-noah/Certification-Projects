@@ -1,0 +1,16 @@
+<section role="region" aria-labelledby="html-questions">
+          <h2 id="html-questions">HTML</h2>
+          <div class="question-block">
+            <h3><span class="sr-only"></span>1</h3>
+            <fieldset class="question"></fieldset>
+          </div>
+          <div class="question-block">
+            <h3><span class="sr-only"></span>2</h3>
+            <fieldset class="question"></fieldset>
+          </div>
+        </section>
+
+
+        ^^This is a part of a quiz form, making the question numbers able
+        to be read by a screen reader; making the page more accessible for
+        all users
