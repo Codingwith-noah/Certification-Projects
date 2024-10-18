@@ -1,0 +1,68 @@
+<!DOCTYPE html> << Declares what type of document is being created
+
+<html lang="en"></html> << Should have every element of the document
+nested inside of it
+
+<head></head> << The pages internal information should be nested in this
+
+<meta charset="UTF-8"> << UTF-8 is a character encoding standard used for 
+electronic communication. Defined by the Unicode Standard, the name is 
+derived from Unicode Transformation Format – 8-bit. Almost every webpage is
+stored in UTF-8. << internal
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+^^ This ensures that the webpage will look equal on a phone as it does on
+a computer << internal
+
+<title>[page title]</title> << This adds a title to the tab in the tab 
+manager << internal
+
+<body></body> << This is where all external (viewed by the user) information
+should be stored
+
+<header></header> << This should have all of the elements shown at the top
+of the page stored in it e.g. Title, Subtitle, Menu, etc. << External
+
+<main></main> << This should store all of the main elements of the page.
+e.g. Subject, photos, etc. << External
+
+<p></p> << This is an easy way to insert text into the document << External
+
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6> << All of these are heading text, they
+are a bigger variation of the <p> element. With <h1> being the largest
+and <h6> being the smallest. << External
+
+<form></form> << This declares a form, it should contain all of the 
+necessary information that the form includes. << External
+
+<section></section> << Most commonly used in a form, this declares a
+section of the page and should have all of its necessary elements nested
+inside of itself. << External
+
+<div></div> << Used to group similar content together, such as the header,
+nav, sections, and footer of a page. << External
+
+<label></label> << Typically used to label an input and can be linked by
+using <label for="[input id]"></label> << External
+
+<input> << This declares a field in which the user is allowed to
+input information, it can be made into a button, textbox, textarea, password,
+email and radio by doing this: <input type="[type of choice]"> << External
+
+<select></select> << Makes a dropdown menu, similar to an input <<External
+    <option></option> << ALWAYS nested inside of a select element << External
+
+<ul></ul> << Declares an unordered list (organized by bullet points) << External
+<ol></ol> << Declares an ordered list (organized by numbers) << External
+    <li></li> << This adds whatever is inputted to the list. << External
+
+<fieldset></fieldset> << Adds a box that contains all of the elements put
+into it, it is used to order a <section> or <form> << External
+
+<footer></footer> << This is where the elements on the bottom of the page
+are stored. << External
+
+<address></address> << This is used to hold contact information << External
+
+Designed by Coding With Noah 
+https://github.com/Codingwith-noah/Certification-Projects
